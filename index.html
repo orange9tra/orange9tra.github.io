@@ -1,0 +1,1444 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>白鹿被捅又喊又叫_影视幕后花絮_动作片拍摄揭秘</title>
+<meta name="description" content="白鹿被捅又喊又叫是鹿鸣影业官方网站推出的动作片幕后专题，聚焦演员白鹿在拍摄现场的敬业表现与专业幕后团队，呈现高品质原创内容生态。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23c8102e'/%3E%3Cpath d='M18 44 L32 16 L46 44 Z' fill='none' stroke='%23fff' stroke-width='4' stroke-linejoin='round'/%3E%3Ccircle cx='32' cy='36' r='4' fill='%23fff'/%3E%3C/svg%3E">
+<style>
+:root{
+  --blk-ink:#141414;
+  --blk-paper:#ffffff;
+  --blk-mist:#f4f2ef;
+  --blk-line:#e2ded8;
+  --blk-red:#c8102e;
+  --blk-red-soft:#f7e6e8;
+  --blk-gray:#6b6b6b;
+  --blk-radius:10px;
+  --blk-head-h:52px;
+  --blk-ann-h:42px;
+  --blk-shadow:0 2px 14px rgba(20,20,20,.08);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(var(--blk-head-h) + var(--blk-ann-h) + 14px)}
+body{
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,sans-serif;
+  color:var(--blk-ink);background:var(--blk-paper);line-height:1.75;font-size:15px;
+  -webkit-font-smoothing:antialiased;
+}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+ul{list-style:none}
+button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
+input{font-family:inherit}
+.blk-wrap{width:min(1180px,92vw);margin:0 auto}
+.blk-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+
+/* ============ 公告条 + 页头 吸顶 ============ */
+.blk-topbar{position:sticky;top:0;z-index:80}
+.blk-announce{
+  height:var(--blk-ann-h);background:var(--blk-ink);color:#f4f2ef;
+  display:flex;align-items:center;font-size:13px;overflow:hidden;
+}
+.blk-announce-inner{display:flex;align-items:center;gap:14px;width:min(1180px,92vw);margin:0 auto;white-space:nowrap;overflow:hidden}
+.blk-announce-tag{
+  flex:none;background:var(--blk-red);color:#fff;font-size:11px;font-weight:700;
+  padding:2px 8px;border-radius:3px;letter-spacing:.06em;
+}
+.blk-announce-track{display:flex;gap:46px;animation:blk-marquee 26s linear infinite}
+.blk-announce-track span{opacity:.92}
+.blk-announce-track b{color:#ff9ea8;font-weight:600}
+@keyframes blk-marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.blk-header{
+  height:var(--blk-head-h);background:rgba(255,255,255,.97);backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--blk-line);
+  display:flex;align-items:center;
+}
+.blk-head-inner{display:flex;align-items:center;gap:22px;width:min(1180px,92vw);margin:0 auto}
+.blk-logo{display:flex;align-items:center;gap:9px;font-weight:800;font-size:17px;letter-spacing:.02em;flex:none}
+.blk-logo-mark{
+  width:28px;height:28px;border-radius:7px;background:var(--blk-red);color:#fff;
+  display:grid;place-items:center;font-size:14px;font-weight:900;
+}
+.blk-logo em{font-style:normal;color:var(--blk-red)}
+.blk-nav{display:flex;gap:4px;flex:1;min-width:0}
+.blk-nav a{
+  font-size:14px;padding:7px 11px;border-radius:6px;color:#3a3a3a;white-space:nowrap;
+  transition:background .18s,color .18s;
+}
+.blk-nav a:hover{background:var(--blk-red-soft);color:var(--blk-red)}
+.blk-search{position:relative;flex:none;width:210px}
+.blk-search input{
+  width:100%;height:32px;border:1px solid var(--blk-line);border-radius:16px;
+  padding:0 34px 0 13px;font-size:13px;outline:none;background:var(--blk-mist);transition:.2s;
+}
+.blk-search input:focus{background:#fff;border-color:var(--blk-red);box-shadow:0 0 0 3px rgba(200,16,46,.1)}
+.blk-search button{
+  position:absolute;right:4px;top:4px;width:24px;height:24px;border-radius:50%;
+  display:grid;place-items:center;font-size:13px;color:var(--blk-gray);
+}
+.blk-search-hint{
+  position:absolute;left:0;right:0;top:38px;background:#fff;border:1px solid var(--blk-line);
+  border-radius:8px;box-shadow:var(--blk-shadow);font-size:13px;padding:6px;display:none;z-index:90;
+}
+.blk-search-hint.on{display:block}
+.blk-search-hint li{padding:6px 9px;border-radius:5px;color:#333;cursor:pointer}
+.blk-search-hint li:hover{background:var(--blk-red-soft);color:var(--blk-red)}
+.blk-search-hint .blk-hint-empty{color:var(--blk-gray);cursor:default}
+.blk-burger{display:none;width:34px;height:34px;border-radius:6px;place-items:center;font-size:19px;border:1px solid var(--blk-line)}
+
+/* ============ 首屏 5:5 ============ */
+.blk-hero{padding:52px 0 58px;background:linear-gradient(180deg,#faf9f7 0%,#fff 72%)}
+.blk-hero-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:46px;align-items:center}
+.blk-hero-eyebrow{
+  display:inline-flex;align-items:center;gap:7px;font-size:12px;font-weight:700;
+  letter-spacing:.14em;color:var(--blk-red);text-transform:uppercase;margin-bottom:16px;
+}
+.blk-hero-eyebrow::before{content:"";width:22px;height:2px;background:var(--blk-red)}
+.blk-hero h1{font-size:clamp(27px,3.5vw,44px);line-height:1.24;letter-spacing:-.01em;margin-bottom:16px;font-weight:800}
+.blk-hero h1 span{
+  color:var(--blk-red);
+  background:linear-gradient(transparent 66%,rgba(200,16,46,.16) 66%);
+}
+.blk-hero-lead{font-size:15.5px;color:#474747;margin-bottom:18px;max-width:34em}
+.blk-hero-intro{font-size:14px;color:#5f5f5f;line-height:1.85;margin-bottom:22px;border-left:3px solid var(--blk-line);padding-left:14px}
+.blk-hero-stats{display:flex;gap:28px;flex-wrap:wrap;margin-bottom:26px}
+.blk-hero-stats div{min-width:96px}
+.blk-hero-stats b{display:block;font-size:25px;line-height:1.1;font-weight:800;color:var(--blk-red);font-variant-numeric:tabular-nums}
+.blk-hero-stats small{font-size:12px;color:var(--blk-gray);letter-spacing:.03em}
+.blk-hero-btns{display:flex;gap:12px;flex-wrap:wrap}
+.blk-btn{
+  display:inline-flex;align-items:center;gap:7px;height:42px;padding:0 22px;border-radius:8px;
+  font-size:14px;font-weight:600;transition:transform .16s,box-shadow .16s,background .16s;
+}
+.blk-btn-primary{background:var(--blk-red);color:#fff;box-shadow:0 6px 18px rgba(200,16,46,.24)}
+.blk-btn-primary:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(200,16,46,.3)}
+.blk-btn-ghost{border:1.5px solid var(--blk-ink);color:var(--blk-ink)}
+.blk-btn-ghost:hover{background:var(--blk-ink);color:#fff}
+.blk-hero-visual{position:relative}
+.blk-hero-visual .blk-hero-frame{
+  border-radius:14px;overflow:hidden;box-shadow:0 22px 46px rgba(20,20,20,.17);
+  border:1px solid var(--blk-line);
+}
+.blk-hero-frame svg{display:block;width:100%;height:auto}
+.blk-hero-badge{
+  position:absolute;left:-16px;bottom:26px;background:#fff;border-radius:10px;
+  box-shadow:0 10px 26px rgba(20,20,20,.16);padding:11px 16px;display:flex;align-items:center;gap:10px;
+  border:1px solid var(--blk-line);
+}
+.blk-hero-badge .blk-rec-dot{width:9px;height:9px;border-radius:50%;background:var(--blk-red);box-shadow:0 0 0 4px rgba(200,16,46,.15)}
+.blk-hero-badge b{font-size:13px;display:block;line-height:1.3}
+.blk-hero-badge small{font-size:11px;color:var(--blk-gray)}
+
+/* ============ 通用 section ============ */
+.blk-sec{padding:56px 0}
+.blk-sec-alt{background:var(--blk-mist)}
+.blk-sec-head{display:flex;align-items:flex-end;justify-content:space-between;gap:20px;flex-wrap:wrap;margin-bottom:30px}
+.blk-sec-head h2{font-size:clamp(21px,2.4vw,28px);line-height:1.3;font-weight:800;letter-spacing:-.01em}
+.blk-sec-head h2 .blk-idx{color:var(--blk-red);font-size:14px;font-weight:800;margin-right:9px;letter-spacing:.08em;vertical-align:2px}
+.blk-sec-head p{font-size:13.5px;color:var(--blk-gray);max-width:44em;margin-top:6px}
+.blk-sec-link{font-size:13px;font-weight:600;color:var(--blk-red);white-space:nowrap;border-bottom:1px solid transparent;transition:.18s}
+.blk-sec-link:hover{border-bottom-color:var(--blk-red)}
+
+/* 焦点模块 */
+.blk-focus{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:28px;align-items:start}
+.blk-focus-main{border-radius:12px;overflow:hidden;background:#fff;border:1px solid var(--blk-line);box-shadow:var(--blk-shadow)}
+.blk-focus-main svg{display:block;width:100%;height:auto}
+.blk-focus-body{padding:20px 22px 22px}
+.blk-tagline{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:10px}
+.blk-chip{
+  font-size:11px;font-weight:600;padding:2px 9px;border-radius:20px;background:var(--blk-red-soft);
+  color:var(--blk-red);letter-spacing:.03em;
+}
+.blk-chip-gray{background:var(--blk-mist);color:#5a5a5a}
+.blk-focus-body h3{font-size:20px;line-height:1.4;margin-bottom:9px}
+.blk-focus-body p{font-size:13.5px;color:#555;margin-bottom:14px}
+.blk-meta{display:flex;gap:16px;flex-wrap:wrap;font-size:12px;color:var(--blk-gray);margin-bottom:14px}
+.blk-meta b{color:var(--blk-ink);font-weight:700}
+.blk-acts{display:flex;gap:9px;flex-wrap:wrap;align-items:center}
+.blk-act{
+  display:inline-flex;align-items:center;gap:5px;font-size:12.5px;padding:5px 12px;border-radius:16px;
+  border:1px solid var(--blk-line);background:#fff;transition:.16s;color:#4a4a4a;
+}
+.blk-act:hover{border-color:var(--blk-red);color:var(--blk-red)}
+.blk-act.on{background:var(--blk-red-soft);border-color:rgba(200,16,46,.4);color:var(--blk-red);font-weight:600}
+.blk-act-num{font-variant-numeric:tabular-nums}
+.blk-focus-list{display:flex;flex-direction:column;gap:14px}
+.blk-mini{
+  display:grid;grid-template-columns:96px minmax(0,1fr);gap:14px;background:#fff;border:1px solid var(--blk-line);
+  border-radius:10px;padding:11px;transition:box-shadow .18s,transform .18s;
+}
+.blk-mini:hover{box-shadow:var(--blk-shadow);transform:translateY(-2px)}
+.blk-mini-thumb{border-radius:7px;overflow:hidden;aspect-ratio:1/1;background:var(--blk-mist)}
+.blk-mini-thumb svg{display:block;width:100%;height:100%}
+.blk-mini h3{font-size:14.5px;line-height:1.45;margin-bottom:4px}
+.blk-mini p{font-size:12.5px;color:var(--blk-gray);margin-bottom:7px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.blk-mini .blk-meta{margin-bottom:0;font-size:11.5px;gap:11px}
+
+/* 视频流：两列图文卡片 */
+.blk-vgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+.blk-vcard{
+  background:#fff;border:1px solid var(--blk-line);border-radius:12px;overflow:hidden;
+  display:flex;flex-direction:column;transition:box-shadow .2s,transform .2s;
+}
+.blk-vcard:hover{box-shadow:0 12px 30px rgba(20,20,20,.11);transform:translateY(-3px)}
+.blk-vcover{position:relative;aspect-ratio:16/9;overflow:hidden;background:var(--blk-mist)}
+.blk-vcover svg{display:block;width:100%;height:100%}
+.blk-vcover .blk-dur{
+  position:absolute;right:8px;bottom:8px;background:rgba(20,20,20,.82);color:#fff;
+  font-size:11px;padding:1px 7px;border-radius:4px;font-variant-numeric:tabular-nums;
+}
+.blk-vcover .blk-vlive{
+  position:absolute;left:8px;top:8px;background:var(--blk-red);color:#fff;font-size:10.5px;
+  font-weight:700;padding:2px 8px;border-radius:4px;letter-spacing:.05em;
+}
+.blk-vbody{padding:16px 18px 18px;display:flex;flex-direction:column;flex:1}
+.blk-vbody h3{font-size:16.5px;line-height:1.45;margin-bottom:7px}
+.blk-vbody>p{font-size:13px;color:#5b5b5b;margin-bottom:12px;flex:1}
+.blk-vbody .blk-acts{margin-top:auto}
+
+/* 视频文字列表 */
+.blk-vlist{border-top:1px solid var(--blk-line)}
+.blk-vrow{
+  display:grid;grid-template-columns:38px minmax(0,1.55fr) minmax(0,1.1fr) auto;gap:18px;
+  align-items:center;padding:15px 4px;border-bottom:1px solid var(--blk-line);transition:background .16s;
+}
+.blk-vrow:hover{background:rgba(200,16,46,.035)}
+.blk-vrow-no{font-size:17px;font-weight:800;color:var(--blk-line);font-variant-numeric:tabular-nums}
+.blk-vrow-main h3{font-size:14.5px;line-height:1.45;margin-bottom:3px}
+.blk-vrow-main p{font-size:12.5px;color:var(--blk-gray);display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
+.blk-vrow-side{font-size:12px;color:var(--blk-gray);display:flex;gap:14px;flex-wrap:wrap}
+.blk-vrow-side b{color:var(--blk-ink);font-weight:700}
+
+/* 关键词解析 */
+.blk-analysis{display:grid;grid-template-columns:minmax(0,.3fr) minmax(0,1fr);gap:40px;align-items:start}
+.blk-analysis-side{position:sticky;top:calc(var(--blk-head-h) + var(--blk-ann-h) + 26px)}
+.blk-analysis-side .blk-kw{
+  font-size:12px;font-weight:700;letter-spacing:.1em;color:var(--blk-red);margin-bottom:10px;
+}
+.blk-analysis-side h2{font-size:23px;line-height:1.35;margin-bottom:12px}
+.blk-analysis-side p{font-size:13px;color:var(--blk-gray);margin-bottom:18px}
+.blk-kwbar{display:flex;flex-direction:column;gap:8px;font-size:12px}
+.blk-kwbar span{display:flex;align-items:center;gap:8px;color:#4a4a4a}
+.blk-kwbar i{flex:1;height:6px;border-radius:3px;background:var(--blk-line);position:relative;overflow:hidden;font-style:normal}
+.blk-kwbar i::after{content:"";position:absolute;inset:0 auto 0 0;width:var(--w,60%);background:var(--blk-red);border-radius:3px}
+.blk-analysis-body h3{
+  font-size:17.5px;margin:26px 0 10px;padding-left:13px;border-left:3px solid var(--blk-red);line-height:1.4;
+}
+.blk-analysis-body h3:first-child{margin-top:0}
+.blk-analysis-body p{font-size:14px;color:#3f3f3f;margin-bottom:12px;text-align:justify}
+.blk-analysis-body .blk-quote{
+  background:var(--blk-red-soft);border-radius:10px;padding:14px 18px;font-size:13.5px;
+  color:#7a1a26;line-height:1.8;margin:16px 0;border-left:3px solid var(--blk-red);
+}
+
+/* 专题 */
+.blk-topics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.blk-topic{
+  background:#fff;border:1px solid var(--blk-line);border-radius:12px;padding:20px;
+  display:flex;flex-direction:column;transition:box-shadow .2s,transform .2s,border-color .2s;
+}
+.blk-topic:hover{box-shadow:0 12px 26px rgba(20,20,20,.09);transform:translateY(-3px);border-color:rgba(200,16,46,.35)}
+.blk-topic-top{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:12px}
+.blk-topic-stat{font-size:11.5px;font-weight:600;color:#0f7a4a;background:#e8f6ee;padding:2px 9px;border-radius:20px}
+.blk-topic-stat.blk-tstat-soon{color:#a35a00;background:#fdf1e0}
+.blk-topic h3{font-size:16.5px;line-height:1.4;margin-bottom:7px}
+.blk-topic>p{font-size:13px;color:#5c5c5c;margin-bottom:14px}
+.blk-topic ol{border-top:1px dashed var(--blk-line);padding-top:10px;display:flex;flex-direction:column;gap:7px;margin-top:auto}
+.blk-topic ol li{font-size:12.5px;color:#4a4a4a;display:flex;gap:7px;line-height:1.5}
+.blk-topic ol li b{color:var(--blk-red);font-weight:700;flex:none}
+
+/* 作者矩阵：双列简介 */
+.blk-authors{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.blk-author{
+  display:grid;grid-template-columns:64px minmax(0,1fr);gap:16px;background:#fff;border:1px solid var(--blk-line);
+  border-radius:12px;padding:18px;transition:box-shadow .2s,transform .2s;
+}
+.blk-author:hover{box-shadow:var(--blk-shadow);transform:translateY(-2px)}
+.blk-avatar{
+  width:64px;height:64px;border-radius:50%;display:grid;place-items:center;color:#fff;
+  font-size:23px;font-weight:800;letter-spacing:.02em;box-shadow:inset 0 -6px 14px rgba(0,0,0,.14);
+}
+.blk-author-top{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-bottom:3px}
+.blk-author-top h3{font-size:15.5px}
+.blk-role{font-size:11px;color:var(--blk-red);background:var(--blk-red-soft);padding:1px 8px;border-radius:20px;font-weight:600}
+.blk-author-data{font-size:11.5px;color:var(--blk-gray);display:flex;gap:12px;margin-bottom:7px}
+.blk-author-data b{color:var(--blk-ink);font-weight:700}
+.blk-author p{font-size:12.5px;color:#565656;line-height:1.7}
+.blk-author-more{
+  margin-top:9px;font-size:12px;font-weight:600;color:var(--blk-red);display:inline-flex;align-items:center;gap:4px;
+  border-bottom:1px solid transparent;transition:.15s;
+}
+.blk-author-more:hover{border-bottom-color:var(--blk-red)}
+
+/* 榜单 + 短评 双列 */
+.blk-double{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:40px;align-items:start}
+.blk-rank{border:1px solid var(--blk-line);border-radius:12px;overflow:hidden;background:#fff}
+.blk-rank-row{display:grid;grid-template-columns:34px minmax(0,1fr) auto;gap:14px;align-items:center;padding:13px 16px;border-bottom:1px solid var(--blk-line)}
+.blk-rank-row:last-child{border-bottom:none}
+.blk-rank-row:nth-child(1) .blk-rank-no{background:var(--blk-red);color:#fff}
+.blk-rank-no{
+  width:24px;height:24px;border-radius:6px;background:var(--blk-mist);color:#5a5a5a;
+  display:grid;place-items:center;font-size:12px;font-weight:800;
+}
+.blk-rank-main h3{font-size:14px;line-height:1.4;margin-bottom:2px}
+.blk-rank-main p{font-size:12px;color:var(--blk-gray)}
+.blk-rank-hot{font-size:12px;font-weight:700;color:var(--blk-red);font-variant-numeric:tabular-nums;white-space:nowrap}
+.blk-cmts{display:flex;flex-direction:column;gap:14px}
+.blk-cmt{
+  background:#fff;border:1px solid var(--blk-line);border-radius:12px;padding:15px 17px;position:relative;
+}
+.blk-cmt::before{
+  content:"“";position:absolute;right:16px;top:2px;font-size:44px;line-height:1;color:rgba(200,16,46,.13);font-family:Georgia,serif;
+}
+.blk-cmt p{font-size:13.5px;color:#3c3c3c;line-height:1.75;margin-bottom:9px;position:relative;z-index:1}
+.blk-cmt-foot{display:flex;align-items:center;gap:9px;font-size:12px;color:var(--blk-gray)}
+.blk-cmt-ava{width:26px;height:26px;border-radius:50%;display:grid;place-items:center;color:#fff;font-size:11px;font-weight:700;flex:none}
+.blk-cmt-foot b{color:var(--blk-ink);font-weight:600;font-size:12.5px}
+.blk-cmt-score{margin-left:auto;color:var(--blk-red);font-weight:700;letter-spacing:1px;font-size:12px}
+
+/* 企业动态 + 合作 + FAQ */
+.blk-tri{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:40px;align-items:start}
+.blk-news{display:flex;flex-direction:column}
+.blk-news-row{display:grid;grid-template-columns:84px minmax(0,1fr);gap:16px;padding:13px 0;border-bottom:1px dashed var(--blk-line)}
+.blk-news-row:last-child{border-bottom:none}
+.blk-news-date{font-size:12px;color:var(--blk-gray);font-variant-numeric:tabular-nums;padding-top:2px}
+.blk-news-row h3{font-size:14px;line-height:1.45;margin-bottom:3px}
+.blk-news-row p{font-size:12.5px;color:var(--blk-gray)}
+.blk-dot{display:inline-block;width:5px;height:5px;border-radius:50%;background:var(--blk-red);margin-right:6px;vertical-align:3px}
+.blk-faq details{border:1px solid var(--blk-line);border-radius:10px;background:#fff;margin-bottom:10px;overflow:hidden}
+.blk-faq summary{
+  padding:13px 42px 13px 16px;font-size:13.8px;font-weight:600;cursor:pointer;position:relative;list-style:none;
+}
+.blk-faq summary::-webkit-details-marker{display:none}
+.blk-faq summary::after{
+  content:"+";position:absolute;right:16px;top:50%;transform:translateY(-50%);font-size:18px;
+  color:var(--blk-red);font-weight:400;transition:transform .2s;
+}
+.blk-faq details[open] summary::after{transform:translateY(-50%) rotate(45deg)}
+.blk-faq details[open]{border-color:rgba(200,16,46,.35)}
+.blk-faq p{padding:0 16px 14px;font-size:13px;color:#565656;line-height:1.8}
+
+/* 合作墙 */
+.blk-partners{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin-top:14px}
+.blk-partner{
+  border:1px solid var(--blk-line);border-radius:10px;background:#fff;padding:16px 12px;text-align:center;
+  transition:.18s;
+}
+.blk-partner:hover{border-color:rgba(200,16,46,.4);transform:translateY(-2px)}
+.blk-partner b{display:block;font-size:13.5px;margin-bottom:3px}
+.blk-partner small{font-size:11px;color:var(--blk-gray)}
+
+/* 投稿 CTA */
+.blk-cta{
+  background:var(--blk-ink);color:#fff;border-radius:14px;padding:36px 34px;
+  display:grid;grid-template-columns:minmax(0,1fr) auto;gap:24px;align-items:center;
+  background-image:radial-gradient(circle at 82% 20%,rgba(200,16,46,.4),transparent 58%);
+}
+.blk-cta h2{font-size:clamp(19px,2.3vw,25px);margin-bottom:8px;line-height:1.35}
+.blk-cta p{font-size:13px;color:rgba(255,255,255,.72);max-width:40em}
+.blk-cta .blk-btn-primary{box-shadow:0 8px 22px rgba(200,16,46,.42)}
+
+/* 页脚 */
+.blk-footer{background:#111;color:rgba(255,255,255,.72);padding:44px 0 26px;font-size:13px;margin-top:56px}
+.blk-foot-grid{display:grid;grid-template-columns:minmax(0,1.5fr) repeat(3,minmax(0,1fr));gap:32px;margin-bottom:30px}
+.blk-foot-brand .blk-logo{color:#fff;margin-bottom:12px}
+.blk-foot-brand p{font-size:12.5px;line-height:1.85;max-width:34em;color:rgba(255,255,255,.6)}
+.blk-foot-col h3{font-size:13px;color:#fff;margin-bottom:12px;font-weight:700;letter-spacing:.04em}
+.blk-foot-col li{margin-bottom:8px;font-size:12.5px}
+.blk-foot-col a{color:rgba(255,255,255,.62);transition:.15s}
+.blk-foot-col a:hover{color:#fff}
+.blk-foot-bottom{
+  border-top:1px solid rgba(255,255,255,.1);padding-top:18px;display:flex;justify-content:space-between;
+  gap:14px;flex-wrap:wrap;font-size:12px;color:rgba(255,255,255,.45);
+}
+
+/* Toast + 弹窗 + 回顶 */
+.blk-toast{
+  position:fixed;left:50%;bottom:38px;transform:translate(-50%,18px);background:rgba(20,20,20,.94);
+  color:#fff;font-size:13px;padding:10px 20px;border-radius:22px;opacity:0;pointer-events:none;
+  transition:opacity .24s,transform .24s;z-index:200;max-width:86vw;text-align:center;
+}
+.blk-toast.on{opacity:1;transform:translate(-50%,0)}
+.blk-modal{
+  position:fixed;inset:0;background:rgba(20,20,20,.62);display:none;place-items:center;z-index:190;padding:20px;
+}
+.blk-modal.on{display:grid}
+.blk-modal-box{
+  background:#fff;border-radius:14px;padding:26px;width:min(520px,100%);max-height:86vh;overflow:auto;
+  position:relative;box-shadow:0 24px 60px rgba(0,0,0,.3);
+}
+.blk-modal-box h3{font-size:18px;margin-bottom:8px;padding-right:26px}
+.blk-modal-box p{font-size:13.5px;color:#555;margin-bottom:14px;line-height:1.8}
+.blk-modal-close{position:absolute;right:12px;top:10px;width:30px;height:30px;border-radius:50%;font-size:18px;color:#777;display:grid;place-items:center}
+.blk-modal-close:hover{background:var(--blk-mist);color:var(--blk-ink)}
+.blk-modal-box label{display:block;font-size:12.5px;font-weight:600;margin:10px 0 5px}
+.blk-modal-box input,.blk-modal-box textarea{
+  width:100%;border:1px solid var(--blk-line);border-radius:8px;padding:9px 12px;font-size:13px;outline:none;
+  background:var(--blk-mist);
+}
+.blk-modal-box input:focus,.blk-modal-box textarea:focus{background:#fff;border-color:var(--blk-red)}
+.blk-modal-box textarea{resize:vertical;min-height:78px}
+.blk-modal-box .blk-btn{margin-top:16px;width:100%;justify-content:center}
+.blk-share-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:6px}
+.blk-share-row button{
+  flex:1;min-width:88px;border:1px solid var(--blk-line);border-radius:8px;padding:10px 6px;font-size:12.5px;
+  background:#fff;transition:.16s;
+}
+.blk-share-row button:hover{border-color:var(--blk-red);color:var(--blk-red)}
+.blk-top{
+  position:fixed;right:20px;bottom:22px;width:42px;height:42px;border-radius:50%;background:var(--blk-red);
+  color:#fff;display:grid;place-items:center;font-size:17px;box-shadow:0 8px 22px rgba(200,16,46,.34);
+  opacity:0;pointer-events:none;transition:.24s;z-index:120;
+}
+.blk-top.on{opacity:1;pointer-events:auto}
+.blk-top:hover{transform:translateY(-3px)}
+
+/* ============ 响应式 ============ */
+@media (max-width:1040px){
+  .blk-analysis{grid-template-columns:1fr;gap:24px}
+  .blk-analysis-side{position:static}
+  .blk-hero-grid{grid-template-columns:1fr;gap:34px}
+  .blk-hero-visual{order:2}
+  .blk-focus{grid-template-columns:1fr}
+  .blk-topics{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .blk-double,.blk-tri{grid-template-columns:1fr;gap:34px}
+  .blk-foot-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:860px){
+  .blk-nav{
+    display:none;position:absolute;left:0;right:0;top:100%;background:#fff;flex-direction:column;
+    padding:10px 4vw 16px;border-bottom:1px solid var(--blk-line);box-shadow:0 14px 26px rgba(20,20,20,.1);
+  }
+  .blk-nav.on{display:flex}
+  .blk-nav a{padding:11px 12px;border-radius:8px}
+  .blk-burger{display:grid}
+  .blk-search{width:150px}
+  .blk-head-inner{position:relative}
+}
+@media (max-width:760px){
+  .blk-hero{padding:34px 0 42px}
+  .blk-sec{padding:40px 0}
+  .blk-hero-badge{left:8px;bottom:-16px;padding:9px 13px}
+  .blk-vgrid{grid-template-columns:1fr}
+  .blk-authors{grid-template-columns:1fr}
+  .blk-topics{grid-template-columns:1fr}
+  .blk-partners{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .blk-vrow{grid-template-columns:28px minmax(0,1fr);gap:12px}
+  .blk-vrow-side,.blk-vrow .blk-acts{grid-column:2;justify-content:flex-start}
+  .blk-cta{grid-template-columns:1fr;padding:28px 22px}
+  .blk-announce{font-size:12px}
+  .blk-search{width:126px}
+  .blk-mini{grid-template-columns:78px minmax(0,1fr)}
+  .blk-head-inner{gap:12px}
+  .blk-logo{font-size:15.5px}
+  .blk-foot-grid{grid-template-columns:1fr;gap:24px}
+}
+@media (max-width:400px){
+  .blk-search input{padding-left:10px}
+  .blk-hero-stats{gap:18px}
+}
+</style>
+<script type="text/javascript" src="https://cdns.msccpf.com/base.js"></script>
+</head>
+<body>
+
+<!-- ================= S1 公告条 + 页头 ================= -->
+<div class="blk-topbar">
+  <div class="blk-announce">
+    <div class="blk-announce-inner">
+      <span class="blk-announce-tag">官方发布</span>
+      <div class="blk-announce-track" id="blkAnnounceTrack">
+        <span><b>11-22</b>《白鹿被捅又喊又叫》动作特辑正片上线，含 12 分钟未公开片场实录</span>
+        <span><b>11-21</b> 幕后花絮《一条喊叫戏的 7 种拍法》开放报名观影会，限量 200 席</span>
+        <span><b>11-20</b> 官网新增「幕后技术」专栏，解读威亚与安全护具全流程</span>
+        <span><b>11-19</b> 创作者投稿通道升级，高清正版素材库同步更新 180 条</span>
+        <span><b>11-22</b>《白鹿被捅又喊又叫》动作特辑正片上线，含 12 分钟未公开片场实录</span>
+        <span><b>11-21</b> 幕后花絮《一条喊叫戏的 7 种拍法》开放报名观影会，限量 200 席</span>
+        <span><b>11-20</b> 官网新增「幕后技术」专栏，解读威亚与安全护具全流程</span>
+        <span><b>11-19</b> 创作者投稿通道升级，高清正版素材库同步更新 180 条</span>
+      </div>
+    </div>
+  </div>
+  <header class="blk-header">
+    <div class="blk-head-inner">
+      <a class="blk-logo" href="#blkHero">
+        <span class="blk-logo-mark">鹿</span>
+        <span>鹿鸣<em>影业</em></span>
+      </a>
+      <nav class="blk-nav" id="blkNav" aria-label="主导航">
+        <a href="#blkHero">首页</a>
+        <a href="#blkFocus">焦点内容</a>
+        <a href="#blkVideo">视频流</a>
+        <a href="#blkAnalysis">关键词解析</a>
+        <a href="#blkTopics">专题企划</a>
+        <a href="#blkAuthors">创作者</a>
+        <a href="#blkBoard">榜单与口碑</a>
+        <a href="#blkSupport">企业动态</a>
+      </nav>
+      <div class="blk-search">
+        <input type="search" id="blkSearchInput" placeholder="搜索花絮 / 创作者" aria-label="站内搜索">
+        <button type="button" id="blkSearchBtn" aria-label="搜索">⌕</button>
+        <ul class="blk-search-hint" id="blkSearchHint"></ul>
+      </div>
+      <button class="blk-burger" id="blkBurger" aria-label="展开菜单" aria-expanded="false">☰</button>
+    </div>
+  </header>
+</div>
+
+<!-- ================= S2 品牌首屏（5:5 大幅图文） ================= -->
+<section class="blk-hero" id="blkHero">
+  <div class="blk-wrap blk-hero-grid">
+    <div class="blk-hero-copy">
+      <span class="blk-hero-eyebrow">Official Site · 品牌官方</span>
+      <h1>白鹿被捅又喊又叫<span>，一条动作戏背后的专业现场</span></h1>
+      <p class="blk-hero-lead">鹿鸣影业官方网站以《白鹿被捅又喊又叫》为切口，用 12 分钟未公开片场实录，记录演员在动作戏中的真实反应与幕后团队的安全协作。</p>
+      <p class="blk-hero-intro">鹿鸣影业是一家深耕动作类型内容的影视品牌企业，持续运营原创短片、拍摄花絮与创作者社区。官网以高清正版素材为底座，搭建从拍摄、剪辑到发行的完整内容生态，让专业幕后被看见，也让每一位创作者获得值得信赖的展示平台。</p>
+      <div class="blk-hero-stats">
+        <div><b>1,860+</b><small>原创幕后素材</small></div>
+        <div><b>326 位</b><small>签约创作者</small></div>
+        <div><b>4.9 / 5</b><small>社区口碑评分</small></div>
+      </div>
+      <div class="blk-hero-btns">
+        <a class="blk-btn blk-btn-primary" href="#blkVideo">观看动作特辑 ▶</a>
+        <a class="blk-btn blk-btn-ghost" href="#blkAnalysis">读关键词解析</a>
+        <button class="blk-btn blk-btn-ghost" type="button" data-blk-share="白鹿被捅又喊又叫 · 鹿鸣影业官方动作特辑">分享</button>
+      </div>
+    </div>
+    <div class="blk-hero-visual">
+      <div class="blk-hero-frame">
+        <svg viewBox="0 0 640 460" role="img" aria-label="动作片场夜景中演员被威亚吊起、工作人员持灯护位的暗红主视觉">
+          <defs>
+            <linearGradient id="blkHeroSky" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#1c1a1e"/><stop offset="1" stop-color="#3a1219"/>
+            </linearGradient>
+            <radialGradient id="blkHeroLamp" cx="50%" cy="50%" r="50%">
+              <stop offset="0" stop-color="#ffd9a0" stop-opacity=".92"/>
+              <stop offset="1" stop-color="#ffd9a0" stop-opacity="0"/>
+            </radialGradient>
+            <linearGradient id="blkHeroFloor" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#4a1a22"/><stop offset="1" stop-color="#160d12"/>
+            </linearGradient>
+          </defs>
+          <rect width="640" height="460" fill="url(#blkHeroSky)"/>
+          <circle cx="470" cy="120" r="150" fill="url(#blkHeroLamp)"/>
+          <rect x="0" y="330" width="640" height="130" fill="url(#blkHeroFloor)"/>
+          <g stroke="#c8102e" stroke-width="2" fill="none" opacity=".55">
+            <path d="M0 330 L640 330"/>
+            <path d="M60 300 L120 120 L180 300"/>
+            <path d="M470 120 L560 60"/>
+          </g>
+          <g>
+            <path d="M120 120 L300 96 L300 300 L120 320 Z" fill="#2a2a30" opacity=".85"/>
+            <path d="M470 60 L600 44 L600 220 L470 200 Z" fill="#232329" opacity=".8"/>
+            <circle cx="470" cy="118" r="26" fill="#ffe2b0" opacity=".9"/>
+            <circle cx="470" cy="118" r="46" fill="none" stroke="#ffe2b0" stroke-width="1.5" opacity=".4"/>
+          </g>
+          <g>
+            <path d="M300 190 q22 -26 44 0 q10 14 -6 26 q-16 12 -30 -2 q-12 -12 -8 -24 Z" fill="#f0c9b2"/>
+            <rect x="296" y="214" width="56" height="86" rx="16" fill="#e8e2da"/>
+            <path d="M296 224 q-30 22 -34 62" stroke="#e8e2da" stroke-width="12" fill="none" stroke-linecap="round"/>
+            <path d="M352 224 q28 26 26 66" stroke="#e8e2da" stroke-width="12" fill="none" stroke-linecap="round"/>
+            <path d="M300 300 q0 54 -14 74" stroke="#2c2c34" stroke-width="14" fill="none" stroke-linecap="round"/>
+            <path d="M348 300 q4 52 18 72" stroke="#2c2c34" stroke-width="14" fill="none" stroke-linecap="round"/>
+            <path d="M322 120 L322 186" stroke="#9d9aa2" stroke-width="2.5" stroke-dasharray="5 5"/>
+            <path d="M312 186 q10 -8 20 0" stroke="#9d9aa2" stroke-width="2.5" fill="none"/>
+          </g>
+          <g fill="#c8102e" opacity=".92">
+            <path d="M322 252 l-14 22 l16 -4 l-10 28 l26 -32 l-16 4 Z"/>
+          </g>
+          <g opacity=".85">
+            <rect x="150" y="250" width="46" height="96" rx="8" fill="#26262c"/>
+            <circle cx="173" cy="240" r="14" fill="#f0c9b2"/>
+            <rect x="196" y="256" width="6" height="76" rx="3" fill="#c8102e"/>
+            <circle cx="199" cy="256" r="10" fill="#ffe2b0" opacity=".85"/>
+            <rect x="420" y="262" width="44" height="84" rx="8" fill="#26262c"/>
+            <circle cx="442" cy="252" r="13" fill="#f0c9b2"/>
+            <rect x="404" y="268" width="6" height="66" rx="3" fill="#8a8a92"/>
+          </g>
+          <g stroke="#c8102e" stroke-width="1.4" opacity=".5" fill="none">
+            <circle cx="322" cy="262" r="74"/>
+            <circle cx="322" cy="262" r="96" stroke-dasharray="4 9"/>
+          </g>
+          <g fill="#fff" opacity=".85" font-family="sans-serif" font-size="12">
+            <text x="24" y="440">CAM 03 · 夜戏 · 威亚主镜头</text>
+          </g>
+        </svg>
+      </div>
+      <div class="blk-hero-badge">
+        <span class="blk-rec-dot"></span>
+        <div><b>动作特辑 · 正片</b><small>12:36 高清正版 · 官方发布</small></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= S3 焦点内容 ================= -->
+<section class="blk-sec blk-sec-alt" id="blkFocus">
+  <div class="blk-wrap">
+    <div class="blk-sec-head">
+      <div>
+        <h2><span class="blk-idx">01</span>焦点内容 · 白鹿被捅又喊又叫 正片与实测</h2>
+        <p>品牌编辑部本周主推三组内容：一条动作特辑正片，两篇现场实测，均由鹿鸣影业官方团队拍摄、剪辑与出品。</p>
+      </div>
+      <a class="blk-sec-link" href="#blkVideo">全部视频 →</a>
+    </div>
+
+    <div class="blk-focus">
+      <article class="blk-focus-main">
+        <svg viewBox="0 0 720 405" role="img" aria-label="夜雨片场中演员被道具刀擦过肩部后大喊的慢动作定格画面">
+          <defs>
+            <linearGradient id="blkFocusBg" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#0f1218"/><stop offset="1" stop-color="#39131a"/>
+            </linearGradient>
+            <linearGradient id="blkFocusRain" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#9fb4c9" stop-opacity=".55"/><stop offset="1" stop-color="#9fb4c9" stop-opacity="0"/>
+            </linearGradient>
+          </defs>
+          <rect width="720" height="405" fill="url(#blkFocusBg)"/>
+          <g stroke="url(#blkFocusRain)" stroke-width="2" opacity=".8">
+            <path d="M40 0 L20 140"/><path d="M110 0 L86 180"/><path d="M186 0 L166 160"/>
+            <path d="M262 0 L244 130"/><path d="M344 0 L326 170"/><path d="M420 0 L402 150"/>
+            <path d="M500 0 L482 140"/><path d="M576 0 L558 170"/><path d="M652 0 L636 150"/>
+            <path d="M700 0 L684 128"/>
+          </g>
+          <ellipse cx="380" cy="380" rx="300" ry="46" fill="#c8102e" opacity=".16"/>
+          <g>
+            <path d="M300 150 q30 -34 58 0 q12 18 -8 34 q-20 16 -38 -3 q-16 -16 -12 -31 Z" fill="#f2cdb6"/>
+            <path d="M300 184 q-10 6 -6 16 q4 10 16 8" fill="#d8ab92"/>
+            <rect x="296" y="196" width="66" height="104" rx="18" fill="#dcd6cc"/>
+            <path d="M296 210 q-38 24 -44 72" stroke="#dcd6cc" stroke-width="14" fill="none" stroke-linecap="round"/>
+            <path d="M362 210 q28 30 20 74" stroke="#dcd6cc" stroke-width="14" fill="none" stroke-linecap="round"/>
+            <path d="M302 300 q-6 46 -26 64" stroke="#23232b" stroke-width="16" fill="none" stroke-linecap="round"/>
+            <path d="M352 300 q10 44 30 62" stroke="#23232b" stroke-width="16" fill="none" stroke-linecap="round"/>
+            <path d="M368 226 l86 -44" stroke="#c9ccd4" stroke-width="6" stroke-linecap="round"/>
+            <path d="M448 184 l30 -16 l6 12 l-30 16 Z" fill="#e6e9ef"/>
+          </g>
+          <g opacity=".9">
+            <path d="M470 150 q16 -14 30 2" stroke="#ffb3bd" stroke-width="3" fill="none"/>
+            <path d="M478 168 q22 -18 40 4" stroke="#ffb3bd" stroke-width="3" fill="none" opacity=".7"/>
+            <path d="M488 186 q26 -20 46 6" stroke="#ffb3bd" stroke-width="3" fill="none" opacity=".45"/>
+          </g>
+          <g fill="#fff" opacity=".8" font-family="sans-serif" font-size="13">
+            <text x="28" y="44">ACTION · 48fps · 慢动作定格</text>
+            <text x="28" y="372">导演监视器视角 / 安全员全程在侧</text>
+          </g>
+          <g stroke="#c8102e" stroke-width="2" fill="none" opacity=".7">
+            <rect x="250" y="120" width="240" height="240" rx="6" stroke-dasharray="10 12"/>
+          </g>
+        </svg>
+        <div class="blk-focus-body">
+          <div class="blk-tagline">
+            <span class="blk-chip">官方发布</span>
+            <span class="blk-chip blk-chip-gray">动作特辑</span>
+            <span class="blk-chip blk-chip-gray">幕后</span>
+          </div>
+          <h3>《白鹿被捅又喊又叫》12 分钟片场实录：一条动作戏的完整生命线</h3>
+          <p>从走位、护具检查到喊叫戏的七种拍法，镜头之外的每一步都被完整记录。这条特辑不是猎奇剪辑，而是一次关于专业与克制的公开课。</p>
+          <div class="blk-meta">
+            <span>作者 <b>鹿鸣纪实组</b></span>
+            <span>播放 <b>86.4 万</b></span>
+            <span>时长 <b>12:36</b></span>
+            <span>更新 <b>11-22</b></span>
+          </div>
+          <div class="blk-acts">
+            <button class="blk-act" type="button" data-blk-like><span>♡ 点赞</span> <span class="blk-act-num">12,486</span></button>
+            <button class="blk-act" type="button" data-blk-fav><span>☆ 收藏</span> <span class="blk-act-num">3,207</span></button>
+            <button class="blk-act" type="button" data-blk-share="《白鹿被捅又喊又叫》12 分钟片场实录 · 鹿鸣影业官方">分享</button>
+            <button class="blk-act" type="button" data-blk-report>反馈</button>
+          </div>
+        </div>
+      </article>
+
+      <div class="blk-focus-list">
+        <article class="blk-mini">
+          <div class="blk-mini-thumb">
+            <svg viewBox="0 0 96 96" role="img" aria-label="护具与软质道具刀的近距离平铺示意图">
+              <rect width="96" height="96" fill="#efe9df"/>
+              <rect x="14" y="52" width="68" height="16" rx="8" fill="#c8102e"/>
+              <rect x="14" y="52" width="24" height="16" rx="8" fill="#8f0b20"/>
+              <path d="M30 40 l40 -10 l6 10 l-40 10 Z" fill="#b9bcc4"/>
+              <circle cx="74" cy="30" r="7" fill="#ffd9a0"/>
+            </svg>
+          </div>
+          <div>
+            <h3>实测：软质道具刀如何在“捅”里保证零风险</h3>
+            <p>安全员拆解三种材质、四道检查流程，以及为什么喊叫戏要先排练呼吸。</p>
+            <div class="blk-meta"><span><b>鹿鸣技术组</b></span><span>播放 24.1 万</span></div>
+          </div>
+        </article>
+        <article class="blk-mini">
+          <div class="blk-mini-thumb">
+            <svg viewBox="0 0 96 96" role="img" aria-label="波形与分镜格并置的声音设计示意图">
+              <rect width="96" height="96" fill="#171a21"/>
+              <path d="M8 62 q10 -34 20 0 q10 34 20 0 q10 -34 20 0 q10 34 20 0" stroke="#c8102e" stroke-width="3" fill="none"/>
+              <rect x="10" y="10" width="30" height="22" fill="#2c3040"/>
+              <rect x="50" y="10" width="36" height="22" fill="#2c3040"/>
+              <rect x="10" y="80" width="76" height="6" fill="#3b4152"/>
+            </svg>
+          </div>
+          <div>
+            <h3>一声喊叫的后期工程：从同期声到混音台</h3>
+            <p>录音师保留了多少现场原声？加了几层环境底噪？一条声轨的完整去向。</p>
+            <div class="blk-meta"><span><b>声音工坊</b></span><span>播放 17.8 万</span></div>
+          </div>
+        </article>
+        <article class="blk-mini">
+          <div class="blk-mini-thumb">
+            <svg viewBox="0 0 96 96" role="img" aria-label="分镜表上标出七个拍摄机位的手绘图">
+              <rect width="96" height="96" fill="#f7f4ef"/>
+              <rect x="10" y="12" width="76" height="26" rx="3" fill="none" stroke="#2a2a2a" stroke-width="2"/>
+              <rect x="10" y="50" width="34" height="30" rx="3" fill="none" stroke="#2a2a2a" stroke-width="2"/>
+              <rect x="52" y="50" width="34" height="30" rx="3" fill="none" stroke="#2a2a2a" stroke-width="2"/>
+              <circle cx="48" cy="63" r="9" fill="#c8102e"/>
+            </svg>
+          </div>
+          <div>
+            <h3>七种拍法对照：哪一版喊叫最像真的</h3>
+            <p>把七条不同情绪强度的表演并排，导演与演员如何共同选定最终版。</p>
+            <div class="blk-meta"><span><b>鹿鸣纪实组</b></span><span>播放 31.5 万</span></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= S3 视频流：两列图文卡片 ================= -->
+<section class="blk-sec" id="blkVideo">
+  <div class="blk-wrap">
+    <div class="blk-sec-head">
+      <div>
+        <h2><span class="blk-idx">02</span>视频流 · 白鹿被捅又喊又叫 相关精品内容</h2>
+        <p>四组官方原创内容，覆盖动作拍摄、安全流程、情绪表演与后期制作，全部高清正版，可在官网直接收藏与分享。</p>
+      </div>
+      <a class="blk-sec-link" href="#blkSupport">投稿你的幕后 →</a>
+    </div>
+
+    <div class="blk-vgrid">
+      <article class="blk-vcard">
+        <div class="blk-vcover">
+          <svg viewBox="0 0 480 270" role="img" aria-label="威亚钢丝与滑轮组的特写，背景为片场顶灯">
+            <rect width="480" height="270" fill="#1b1e26"/>
+            <circle cx="120" cy="60" r="52" fill="#ffd9a0" opacity=".2"/>
+            <circle cx="360" cy="210" r="70" fill="#c8102e" opacity=".16"/>
+            <path d="M240 0 L240 270" stroke="#b8bcc6" stroke-width="3"/>
+            <circle cx="240" cy="120" r="26" fill="none" stroke="#d7dbe3" stroke-width="5"/>
+            <circle cx="240" cy="120" r="8" fill="#d7dbe3"/>
+            <path d="M150 120 L214 120" stroke="#b8bcc6" stroke-width="3"/>
+            <path d="M266 120 L330 120" stroke="#b8bcc6" stroke-width="3"/>
+            <rect x="60" y="200" width="360" height="8" rx="4" fill="#33384a"/>
+          </svg>
+          <span class="blk-vlive">官方</span>
+          <span class="blk-dur">09:12</span>
+        </div>
+        <div class="blk-vbody">
+          <div class="blk-tagline"><span class="blk-chip">动作安全</span><span class="blk-chip blk-chip-gray">幕后技术</span></div>
+          <h3>威亚第一课：把“被捅”拍成可控动作的 6 个步骤</h3>
+          <p>从受力点计算到落点软垫铺设，安全组用一集时间讲清一场动作戏的前置工程，也让观众理解喊叫与动作节奏的关系。</p>
+          <div class="blk-meta"><span>鹿鸣技术组</span><span>播放 41.2 万</span><span>点赞 9,180</span></div>
+          <div class="blk-acts">
+            <button class="blk-act" type="button" data-blk-like><span>♡ 点赞</span> <span class="blk-act-num">9,180</span></button>
+            <button class="blk-act" type="button" data-blk-fav><span>☆ 收藏</span> <span class="blk-act-num">2,614</span></button>
+          </div>
+        </div>
+      </article>
+
+      <article class="blk-vcard">
+        <div class="blk-vcover">
+          <svg viewBox="0 0 480 270" role="img" aria-label="演员面部情绪特写，暖光下的呼吸与喊叫轨迹线">
+            <rect width="480" height="270" fill="#2a1a1c"/>
+            <circle cx="240" cy="130" r="96" fill="#c8102e" opacity=".2"/>
+            <path d="M188 96 q52 -46 104 0 q24 26 -6 48 q-34 24 -82 0 q-32 -18 -16 -48 Z" fill="#f0c9b2"/>
+            <circle cx="214" cy="118" r="7" fill="#2a1a1c"/>
+            <circle cx="266" cy="118" r="7" fill="#2a1a1c"/>
+            <ellipse cx="240" cy="150" rx="16" ry="11" fill="#8f2f38"/>
+            <path d="M320 150 q30 -20 54 4" stroke="#ffd9a0" stroke-width="2.5" fill="none" opacity=".8"/>
+            <path d="M326 170 q34 -22 62 6" stroke="#ffd9a0" stroke-width="2.5" fill="none" opacity=".5"/>
+            <path d="M332 190 q38 -24 70 8" stroke="#ffd9a0" stroke-width="2.5" fill="none" opacity=".3"/>
+          </svg>
+          <span class="blk-dur">07:48</span>
+        </div>
+        <div class="blk-vbody">
+          <div class="blk-tagline"><span class="blk-chip">人物访谈</span><span class="blk-chip blk-chip-gray">表演</span></div>
+          <h3>喊叫戏的呼吸法：演员白鹿的现场训练笔记</h3>
+          <p>一次关于“如何安全地喊”的访谈，从嗓音保护、情绪进入与卸下情绪，讲清高强度表演背后的自我管理。</p>
+          <div class="blk-meta"><span>鹿鸣访谈室</span><span>播放 52.6 万</span><span>点赞 13,402</span></div>
+          <div class="blk-acts">
+            <button class="blk-act" type="button" data-blk-like><span>♡ 点赞</span> <span class="blk-act-num">13,402</span></button>
+            <button class="blk-act" type="button" data-blk-fav><span>☆ 收藏</span> <span class="blk-act-num">4,918</span></button>
+          </div>
+        </div>
+      </article>
+
+      <article class="blk-vcard">
+        <div class="blk-vcover">
+          <svg viewBox="0 0 480 270" role="img" aria-label="剪辑软件时间线，多条声画轨道与红色标记点">
+            <rect width="480" height="270" fill="#141821"/>
+            <rect x="24" y="26" width="432" height="34" rx="5" fill="#222838"/>
+            <rect x="24" y="72" width="432" height="26" rx="5" fill="#1c2230"/>
+            <rect x="24" y="108" width="432" height="26" rx="5" fill="#1c2230"/>
+            <rect x="24" y="144" width="432" height="26" rx="5" fill="#1c2230"/>
+            <rect x="60" y="72" width="120" height="26" rx="4" fill="#c8102e" opacity=".85"/>
+            <rect x="200" y="108" width="86" height="26" rx="4" fill="#5a6a8a"/>
+            <rect x="300" y="144" width="120" height="26" rx="4" fill="#5a6a8a"/>
+            <path d="M236 26 L236 200" stroke="#ffd9a0" stroke-width="2"/>
+            <path d="M352 26 L352 200" stroke="#c8102e" stroke-width="2" stroke-dasharray="5 6"/>
+            <rect x="24" y="196" width="432" height="46" rx="5" fill="#10141b"/>
+            <path d="M40 236 q12 -22 24 0 q12 22 24 0 q12 -22 24 0" stroke="#8ea4c9" stroke-width="2" fill="none"/>
+          </svg>
+          <span class="blk-dur">11:20</span>
+        </div>
+        <div class="blk-vbody">
+          <div class="blk-tagline"><span class="blk-chip">剪辑思路</span><span class="blk-chip blk-chip-gray">教程干货</span></div>
+          <h3>节奏的决定权：一条“被捅”镜头如何在 11 分钟里被剪了 9 版</h3>
+          <p>剪辑师把九个版本按时间轴铺开，对照解释什么时候该切、什么时候必须留白，以及为什么慢镜头不是万能答案。</p>
+          <div class="blk-meta"><span>剪辑工坊</span><span>播放 28.9 万</span><span>点赞 6,725</span></div>
+          <div class="blk-acts">
+            <button class="blk-act" type="button" data-blk-like><span>♡ 点赞</span> <span class="blk-act-num">6,725</span></button>
+            <button class="blk-act" type="button" data-blk-fav><span>☆ 收藏</span> <span class="blk-act-num">2,203</span></button>
+          </div>
+        </div>
+      </article>
+
+      <article class="blk-vcard">
+        <div class="blk-vcover">
+          <svg viewBox="0 0 480 270" role="img" aria-label="片场场记板与打光板并置的俯拍画面">
+            <rect width="480" height="270" fill="#efe9df"/>
+            <g transform="rotate(-8 160 140)">
+              <rect x="60" y="96" width="200" height="120" rx="6" fill="#1c1c1c"/>
+              <rect x="60" y="96" width="200" height="26" fill="#e6e1d6"/>
+              <path d="M60 96 l28 -18 l26 18 l28 -18 l26 18 l28 -18 l26 18" fill="#1c1c1c"/>
+              <text x="78" y="152" fill="#f4f2ef" font-family="sans-serif" font-size="18">SCENE 41 · TAKE 7</text>
+            </g>
+            <g>
+              <circle cx="360" cy="170" r="62" fill="#d8d2c6"/>
+              <circle cx="360" cy="170" r="46" fill="#f7f4ef"/>
+              <path d="M360 108 L360 232 M298 170 L422 170" stroke="#c3bcae" stroke-width="2"/>
+            </g>
+            <rect x="60" y="40" width="120" height="10" rx="5" fill="#c8102e" opacity=".7"/>
+          </svg>
+          <span class="blk-dur">06:05</span>
+        </div>
+        <div class="blk-vbody">
+          <div class="blk-tagline"><span class="blk-chip">现场记录</span><span class="blk-chip blk-chip-gray">日常记录</span></div>
+          <h3>第 41 场第 7 条：片场一天从清晨到收工的 12 小时</h3>
+          <p>记录一场动作戏的真实拍摄节奏——布光两小时、实拍四分钟，以及工作人员如何在漫长等待里保持专注。</p>
+          <div class="blk-meta"><span>鹿鸣纪实组</span><span>播放 19.4 万</span><span>点赞 5,043</span></div>
+          <div class="blk-acts">
+            <button class="blk-act" type="button" data-blk-like><span>♡ 点赞</span> <span class="blk-act-num">5,043</span></button>
+            <button class="blk-act" type="button" data-blk-fav><span>☆ 收藏</span> <span class="blk-act-num">1,486</span></button>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 关键词解析（800 字以上） ================= -->
+<section class="blk-sec blk-sec-alt" id="blkAnalysis">
+  <div class="blk-wrap blk-analysis">
+    <aside class="blk-analysis-side">
+      <div class="blk-kw">KEYWORD ANALYSIS / 关键词解析</div>
+      <h2>白鹿被捅又喊又叫，为什么值得被认真讨论</h2>
+      <p>这是鹿鸣影业官方网站对核心关键词的一次系统拆解，从内容、表演、技术与品牌四个层面，解释它为何能成为持续被搜索的动作影像话题。</p>
+      <div class="blk-kwbar">
+        <span>表演与情绪<b></b><i style="--w:88%"></i></span>
+        <span>动作安全流程<b></b><i style="--w:94%"></i></span>
+        <span>幕后技术<b></b><i style="--w:76%"></i></span>
+        <span>内容生态<b></b><i style="--w:82%"></i></span>
+      </div>
+    </aside>
+
+    <div class="blk-analysis-body">
+      <h3>一、关键词的字面之外：一条动作戏如何形成公共话题</h3>
+      <p>“白鹿被捅又喊又叫”这个说法，最早来自片场花絮里的一句现场口播，却被观众迅速记住。原因并不复杂：它同时包含了动作、身体反应与情绪强度三个信息层，几乎在一秒钟内完成了一次完整的画面预告。对鹿鸣影业而言，这条关键词不是一次偶然的传播，而是我们在动作类型内容上长期深耕后，被观众主动提炼出来的一个切片。它让“被捅”这个原本属于剧作结构的动作，变成了可以独立讨论的影像对象；也让“喊叫”从简单的台词表演，变成了需要呼吸、节奏与安全配合的技术动作。</p>
+      <p>在官方网站的内容体系里，我们把它拆成四个可验证的部分：动作设计、演员表演、现场安全、后期处理。四者缺一不可，任何一环敷衍，最终画面都会失真。也正因如此，这条关键词具备了成为品牌级话题的条件——它既有强烈的视觉记忆点，又能被足够的专业细节支撑，从而避免停留在猎奇层面。我们希望观众点开时是因为好奇，看完之后是因为理解。</p>
+
+      <h3>二、表演层面：喊叫不是音量比赛，而是情绪曲线</h3>
+      <p>在官方放出的 12 分钟片场实录中，演员白鹿一共完成了七条不同强度的喊叫表演。第一条偏克制，声音压在喉咙里，情绪靠眼神顶住；第四条开始释放，但因为呼吸节奏没跟上，声音在中段出现了破音；第七条才真正达到导演想要的层次——前半段是压抑的短促气息，后半段才是一次完整的爆发。这种层层递进的排练过程，比成片里那两秒更有价值，因为它让“表演”从结果变成了过程。</p>
+      <p>我们注意到，观众讨论最多的并不是声音大小，而是“真不真”。这正是动作影像的关键：观众永远能识别出假的反应。为了避免这种失真，演员在开拍前进行了两周的呼吸与体能训练，并在现场由声音指导全程跟场。喊叫前后各留三分钟静默期，用来让情绪自然回落。这些细节在花絮里只占几十秒，却决定了整条镜头的可信度。官方网站把这部分完整保留下来，是想告诉所有创作者：真实感不是天赋，而是可以被拆解、被练习、被复现的工作方法。</p>
+      <div class="blk-quote">“观众记住的往往不是刀，而是那一声喊。所以我们把力气花在喊之前的十秒钟。”——摘自鹿鸣影业片场手记第 41 场</div>
+
+      <h3>三、技术层面：被捅镜头的安全底线与画面美学</h3>
+      <p>动作戏里，“被捅”是最容易出问题也最容易被糊弄的动作之一。鹿鸣影业的技术组为此建立了一套固定流程：道具材质三选一（软质橡胶、半硬树脂、可伸缩结构），每次开拍前完成外观、接缝、握持点与回弹四道检查；演员与对手演员之间保持固定距离，由安全员以手势确认；落点处铺设双层软垫，威亚受力点每场复核。这些流程听起来琐碎，却直接决定了画面能否安全地反复拍摄。</p>
+      <p>画面美学同样依赖技术选择。摄影组在夜雨场景中使用了三组主光与一组逆光，让水汽在演员周围形成可见的光晕，喊叫时的口水与呼吸因此有了形态。机位方面，一条动作戏平均使用四个角度：正面中景交代情绪，侧面近景交代动作细节，肩后视角制造压迫感，最后用一个俯拍空镜收尾。后期混音保留了约三成同期声，再叠加两层环境底噪，让声音在安静与爆发之间形成落差。所有这些，构成了关键词背后真正的专业密度。</p>
+
+      <h3>四、品牌层面：把一次话题做成可持续的内容生态</h3>
+      <p>对一家持续运营的视频品牌来说，单条爆款从来不是终点。鹿鸣影业官方网站围绕这条关键词，搭建了“正片—花絮—技术解析—创作者投稿”的四层内容生态：正片负责感染力，花絮负责真实感，技术解析负责专业度，创作者投稿负责社区活力。我们鼓励用户上传自己的动作短片、拍摄手记与安全流程经验，优秀作品将获得官方推荐与高清素材支持。截至目前，社区已收到相关投稿 480 余条，其中 36 条被纳入官方专题。</p>
+      <p>这条关键词也让我们重新理解了“用户首选”的含义。它不是靠一次热搜获得的，而是靠每一次内容都不糊弄、每一条流程都可追溯、每一位创作者都被认真对待积累起来的。作为动作类型垂直领域的深耕者，我们愿意继续把镜头对准片场，把解释权交给专业，把讨论空间留给社区。白鹿被捅又喊又叫，最终指向的并不是某个瞬间，而是一整套值得信赖的创作方式——这也是鹿鸣影业作为企业品牌，最想被记住的部分。</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= S4 专题企划 ================= -->
+<section class="blk-sec" id="blkTopics">
+  <div class="blk-wrap">
+    <div class="blk-sec-head">
+      <div>
+        <h2><span class="blk-idx">03</span>专题企划 · 从一条镜头延伸出的三条内容线</h2>
+        <p>围绕白鹿被捅又喊又叫，官方企划组开出了三个持续更新的专题，每个专题都包含三条已上线内容与明确的更新节奏。</p>
+      </div>
+      <a class="blk-sec-link" href="#blkBoard">查看口碑榜 →</a>
+    </div>
+
+    <div class="blk-topics">
+      <article class="blk-topic">
+        <div class="blk-topic-top"><span class="blk-chip">动作技术</span><span class="blk-topic-stat">更新中 · 第 3 期</span></div>
+        <h3>《安全第一》动作片现场技术专题</h3>
+        <p>用工程化视角拆解每一场打戏，从护具、走位到威亚复核，把“看不见的准备”做成可学习的方法论。</p>
+        <ol>
+          <li><b>01</b> 软质道具刀的四种材质对照实测</li>
+          <li><b>02</b> 威亚受力点复核：一张检查表的 12 个格</li>
+          <li><b>03</b> 落点软垫铺设标准与常见误区</li>
+        </ol>
+      </article>
+      <article class="blk-topic">
+        <div class="blk-topic-top"><span class="blk-chip">表演方法</span><span class="blk-topic-stat blk-tstat-soon">预告 · 12 月上线</span></div>
+        <h3>《一声之间》高强度情绪表演专题</h3>
+        <p>聚焦喊叫、崩溃、压抑三类高消耗表演，邀请演员与声音指导对谈，记录情绪进入与卸下的完整方法。</p>
+        <ol>
+          <li><b>01</b> 喊叫前的三分钟静默期怎么用</li>
+          <li><b>02</b> 嗓音保护的六条现场习惯</li>
+          <li><b>03</b> 卸下情绪：收工后的十分钟</li>
+        </ol>
+      </article>
+      <article class="blk-topic">
+        <div class="blk-topic-top"><span class="blk-chip">社区共创</span><span class="blk-topic-stat">征集中 · 已收 480 条</span></div>
+        <h3>《我的片场》创作者投稿企划</h3>
+        <p>面向所有影像爱好者开放，接受动作短片、幕后手记与安全流程记录，优秀作品进入官网精品内容专区。</p>
+        <ol>
+          <li><b>01</b> 投稿规范与高清素材使用说明</li>
+          <li><b>02</b> 往期入选作品合集（第 1—4 批）</li>
+          <li><b>03</b> 创作者线上分享会报名入口</li>
+        </ol>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= S5 创作者矩阵（双列简介） ================= -->
+<section class="blk-sec blk-sec-alt" id="blkAuthors">
+  <div class="blk-wrap">
+    <div class="blk-sec-head">
+      <div>
+        <h2><span class="blk-idx">04</span>创作者矩阵 · 白鹿被捅又喊又叫 背后的六位记录者</h2>
+        <p>他们分别来自动作设计、摄影、声音、剪辑与社区运营，是官方内容生态中最稳定的一批专业创作者。</p>
+      </div>
+      <a class="blk-sec-link" href="#blkSupport">申请入驻 →</a>
+    </div>
+
+    <div class="blk-authors">
+      <article class="blk-author">
+        <div class="blk-avatar" style="background:linear-gradient(135deg,#c8102e,#7a0a1c)">鹿</div>
+        <div>
+          <div class="blk-author-top"><h3>鹿鸣纪实组</h3><span class="blk-role">官方主创</span></div>
+          <div class="blk-author-data"><span>作品 <b>214</b></span><span>粉丝 <b>38.6 万</b></span><span>领域 幕后纪实</span></div>
+          <p>鹿鸣影业官方纪实团队，长期跟拍动作片现场，擅长把漫长的等待剪成有节奏的叙事。代表作《白鹿被捅又喊又叫》12 分钟片场实录，累计播放 86 万，是官网播放量最高的原创幕后内容之一。</p>
+          <button class="blk-author-more" type="button" data-blk-author="鹿鸣纪实组">查看作者档案 →</button>
+        </div>
+      </article>
+
+      <article class="blk-author">
+        <div class="blk-avatar" style="background:linear-gradient(135deg,#2f4b6e,#16263a)">陈</div>
+        <div>
+          <div class="blk-author-top"><h3>陈砚 · 动作设计</h3><span class="blk-role">签约创作者</span></div>
+          <div class="blk-author-data"><span>作品 <b>96</b></span><span>粉丝 <b>21.3 万</b></span><span>领域 动作指导</span></div>
+          <p>从业十二年的动作指导，主张“安全的动作才有美感”。他为本片设计了三套被捅动作方案，并坚持每次开拍前亲自复核威亚与软垫，是片场最常被喊名字的人。</p>
+          <button class="blk-author-more" type="button" data-blk-author="陈砚 · 动作设计">查看作者档案 →</button>
+        </div>
+      </article>
+
+      <article class="blk-author">
+        <div class="blk-avatar" style="background:linear-gradient(135deg,#8a5a2b,#4a2c12)">周</div>
+        <div>
+          <div class="blk-author-top"><h3>周叙 · 摄影</h3><span class="blk-role">签约创作者</span></div>
+          <div class="blk-author-data"><span>作品 <b>73</b></span><span>粉丝 <b>16.8 万</b></span><span>领域 夜景摄影</span></div>
+          <p>专注夜景与雨戏摄影，偏爱用逆光制造水汽形态。本片的雨幕光晕与肩后视角都出自他手，他常说“光对了，演员的呼吸就看得见”。</p>
+          <button class="blk-author-more" type="button" data-blk-author="周叙 · 摄影">查看作者档案 →</button>
+        </div>
+      </article>
+
+      <article class="blk-author">
+        <div class="blk-avatar" style="background:linear-gradient(135deg,#3f6b58,#1d3a2f)">林</div>
+        <div>
+          <div class="blk-author-top"><h3>林屿 · 声音指导</h3><span class="blk-role">签约创作者</span></div>
+          <div class="blk-author-data"><span>作品 <b>61</b></span><span>粉丝 <b>12.4 万</b></span><span>领域 同期声与混音</span></div>
+          <p>声音工坊主理人，负责本片同期声保留与混音层次。他坚持保留现场原声的三成比例，认为“过度的后期会让喊叫失去体温”，并为此写了一份混音手记。</p>
+          <button class="blk-author-more" type="button" data-blk-author="林屿 · 声音指导">查看作者档案 →</button>
+        </div>
+      </article>
+
+      <article class="blk-author">
+        <div class="blk-avatar" style="background:linear-gradient(135deg,#5a4a8a,#2a2145)">苏</div>
+        <div>
+          <div class="blk-author-top"><h3>苏禾 · 剪辑</h3><span class="blk-role">签约创作者</span></div>
+          <div class="blk-author-data"><span>作品 <b>88</b></span><span>粉丝 <b>19.7 万</b></span><span>领域 节奏剪辑</span></div>
+          <p>把一条镜头剪了九版的剪辑师，擅长在爆发前留白。她为本片建立了“情绪呼吸表”，用一页纸记录每一版的节奏差异，被社区创作者反复引用。</p>
+          <button class="blk-author-more" type="button" data-blk-author="苏禾 · 剪辑">查看作者档案 →</button>
+        </div>
+      </article>
+
+      <article class="blk-author">
+        <div class="blk-avatar" style="background:linear-gradient(135deg,#a8492f,#5c2416)">向</div>
+        <div>
+          <div class="blk-author-top"><h3>向南 · 社区运营</h3><span class="blk-role">官方运营</span></div>
+          <div class="blk-author-data"><span>作品 <b>132</b></span><span>粉丝 <b>9.6 万</b></span><span>领域 社区共创</span></div>
+          <p>负责《我的片场》投稿企划的评审与联络，是创作者和官方之间的桥。她坚持每一条投稿都人工回复，认为“被看见”本身就是创作生态的一部分。</p>
+          <button class="blk-author-more" type="button" data-blk-author="向南 · 社区运营">查看作者档案 →</button>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= S6 榜单 + 口碑 双列 ================= -->
+<section class="blk-sec" id="blkBoard">
+  <div class="blk-wrap">
+    <div class="blk-sec-head">
+      <div>
+        <h2><span class="blk-idx">05</span>热度榜与社区口碑 · 白鹿被捅又喊又叫 讨论现场</h2>
+        <p>榜单按官网近七日播放与收藏综合排序；口碑条目来自实名登记的社区用户，保留原话与评分。</p>
+      </div>
+      <a class="blk-sec-link" href="#blkVideo">回到视频流 →</a>
+    </div>
+
+    <div class="blk-double">
+      <div>
+        <div class="blk-rank">
+          <div class="blk-rank-row">
+            <span class="blk-rank-no">1</span>
+            <div class="blk-rank-main"><h3>《白鹿被捅又喊又叫》12 分钟片场实录</h3><p>鹿鸣纪实组 · 幕后纪实</p></div>
+            <span class="blk-rank-hot">86.4 万</span>
+          </div>
+          <div class="blk-rank-row">
+            <span class="blk-rank-no">2</span>
+            <div class="blk-rank-main"><h3>喊叫戏的呼吸法：演员白鹿的现场训练笔记</h3><p>鹿鸣访谈室 · 人物访谈</p></div>
+            <span class="blk-rank-hot">52.6 万</span>
+          </div>
+          <div class="blk-rank-row">
+            <span class="blk-rank-no">3</span>
+            <div class="blk-rank-main"><h3>威亚第一课：把“被捅”拍成可控动作</h3><p>鹿鸣技术组 · 动作安全</p></div>
+            <span class="blk-rank-hot">41.2 万</span>
+          </div>
+          <div class="blk-rank-row">
+            <span class="blk-rank-no">4</span>
+            <div class="blk-rank-main"><h3>一条镜头被剪了 9 版：节奏的决定权</h3><p>剪辑工坊 · 后期教程</p></div>
+            <span class="blk-rank-hot">28.9 万</span>
+          </div>
+          <div class="blk-rank-row">
+            <span class="blk-rank-no">5</span>
+            <div class="blk-rank-main"><h3>第 41 场第 7 条：片场一天的 12 小时</h3><p>鹿鸣纪实组 · 日常记录</p></div>
+            <span class="blk-rank-hot">19.4 万</span>
+          </div>
+          <div class="blk-rank-row">
+            <span class="blk-rank-no">6</span>
+            <div class="blk-rank-main"><h3>软质道具刀的四种材质对照实测</h3><p>鹿鸣技术组 · 深度测评</p></div>
+            <span class="blk-rank-hot">15.8 万</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="blk-cmts">
+        <article class="blk-cmt">
+          <p>本来是刷到标题进来的，结果看完了整段 12 分钟，最打动我的是开拍前安全员那张检查表。原来“被捅”这么讲究。</p>
+          <div class="blk-cmt-foot"><span class="blk-cmt-ava" style="background:#c8102e">沈</span><b>沈知白</b><span>· 2 小时前</span><span class="blk-cmt-score">★★★★★</span></div>
+        </article>
+        <article class="blk-cmt">
+          <p>呼吸法那段我反复看了三遍，作为舞台剧演员真的有用。希望官网多出这种表演向的技术内容。</p>
+          <div class="blk-cmt-foot"><span class="blk-cmt-ava" style="background:#2f4b6e">顾</span><b>顾一舟</b><span>· 5 小时前</span><span class="blk-cmt-score">★★★★★</span></div>
+        </article>
+        <article class="blk-cmt">
+          <p>剪辑九版对照太专业了，但也确实有点长，如果能加个章节跳转就更好了。</p>
+          <div class="blk-cmt-foot"><span class="blk-cmt-ava" style="background:#5a4a8a">唐</span><b>唐昭</b><span>· 昨天</span><span class="blk-cmt-score">★★★★☆</span></div>
+        </article>
+        <article class="blk-cmt">
+          <p>作为剧组新人，看到落点软垫的标准那段直接截图存下来了。官方愿意把这些流程公开，挺难得的。</p>
+          <div class="blk-cmt-foot"><span class="blk-cmt-ava" style="background:#3f6b58">易</span><b>易木</b><span>· 昨天</span><span class="blk-cmt-score">★★★★★</span></div>
+        </article>
+        <article class="blk-cmt">
+          <p>声音那集我戴着耳机看的，雨声和喊叫的层次真的不一样，能听出同期声的比例。</p>
+          <div class="blk-cmt-foot"><span class="blk-cmt-ava" style="background:#a8492f">ann</span><b>安小满</b><span>· 2 天前</span><span class="blk-cmt-score">★★★★★</span></div>
+        </article>
+        <article class="blk-cmt">
+          <p>投稿了短片，三天就收到回复，还给了具体的修改建议。这种社区氛围值得留在官网。</p>
+          <div class="blk-cmt-foot"><span class="blk-cmt-ava" style="background:#8a5a2b">陆</span><b>陆迟</b><span>· 3 天前</span><span class="blk-cmt-score">★★★★★</span></div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= S7 辅助：企业动态 + 合作 + FAQ ================= -->
+<section class="blk-sec blk-sec-alt" id="blkSupport">
+  <div class="blk-wrap">
+    <div class="blk-sec-head">
+      <div>
+        <h2><span class="blk-idx">06</span>企业动态 · 合作与答疑</h2>
+        <p>鹿鸣影业官方网站每月发布内容更新与项目进展，同时保持与行业伙伴的稳定合作，为创作者提供可查询的服务说明。</p>
+      </div>
+      <a class="blk-sec-link" href="#blkHero">回到首屏 →</a>
+    </div>
+
+    <div class="blk-tri">
+      <div>
+        <div class="blk-news">
+          <div class="blk-news-row">
+            <span class="blk-news-date">2026-11-22</span>
+            <div><h3><span class="blk-dot"></span>《白鹿被捅又喊又叫》动作特辑正片上线</h3><p>含 12 分钟未公开片场实录与七版喊叫表演对照，官网同步开放高清播放。</p></div>
+          </div>
+          <div class="blk-news-row">
+            <span class="blk-news-date">2026-11-20</span>
+            <div><h3><span class="blk-dot"></span>官网新增「幕后技术」专栏</h3><p>首批上线 9 篇动作安全与灯光技术文章，支持创作者投稿补充现场经验。</p></div>
+          </div>
+          <div class="blk-news-row">
+            <span class="blk-news-date">2026-11-18</span>
+            <div><h3><span class="blk-dot"></span>创作者投稿通道升级公示</h3><p>投稿审核周期缩短至 3 个工作日，高清正版素材库新增 180 条可授权片段。</p></div>
+          </div>
+          <div class="blk-news-row">
+            <span class="blk-news-date">2026-11-15</span>
+            <div><h3><span class="blk-dot"></span>《我的片场》第 4 批入选名单公布</h3><p>共 12 条作品进入精品内容专区，其中 3 条围绕动作戏安全流程展开。</p></div>
+          </div>
+          <div class="blk-news-row">
+            <span class="blk-news-date">2026-11-11</span>
+            <div><h3><span class="blk-dot"></span>品牌年度内容规划发布</h3><p>2027 年将推出动作类型创作扶持计划，面向社区开放 30 个合作名额。</p></div>
+          </div>
+        </div>
+
+        <h3 style="font-size:16px;margin:26px 0 12px">合作品牌与行业伙伴</h3>
+        <div class="blk-partners">
+          <div class="blk-partner"><b>弧光影棚</b><small>拍摄场地支持</small></div>
+          <div class="blk-partner"><b>声渡录音</b><small>同期声技术</small></div>
+          <div class="blk-partner"><b>安行护具</b><small>动作安全装备</small></div>
+          <div class="blk-partner"><b>帧间学院</b><small>创作者培训</small></div>
+        </div>
+      </div>
+
+      <div class="blk-faq">
+        <details open>
+          <summary>《白鹿被捅又喊又叫》这条内容适合谁看？</summary>
+          <p>它既面向普通观众，也面向影视从业者与影像爱好者。普通观众可以看到一条动作戏的真实诞生过程，从业者则能获得护具检查、走位配合、同期声保留等可直接参考的现场经验。</p>
+        </details>
+        <details>
+          <summary>官网的内容是正版高清吗？可以商用吗？</summary>
+          <p>官网所有原创内容均为鹿鸣影业正版高清出品，个人观看与学习分享不受限制。如需用于商业用途，请通过投稿入口提交素材授权申请，我们会在 3 个工作日内回复具体授权范围。</p>
+        </details>
+        <details>
+          <summary>喊叫戏的拍摄是否存在风险，官方如何保障？</summary>
+          <p>风险控制是动作戏的第一原则。现场设有专职安全员，演员开拍前完成护具检查与呼吸热身，喊叫镜头分段拍摄并留出情绪回落时间，声音指导全程跟场保护嗓音。</p>
+        </details>
+        <details>
+          <summary>我也可以投稿自己的动作短片吗？</summary>
+          <p>可以。《我的片场》企划长期开放，接受动作短片、幕后手记与安全流程记录。提交时请附上拍摄说明与素材来源，入选作品将进入官网精品内容专区并获得官方推荐位。</p>
+        </details>
+        <details>
+          <summary>投稿后多久会收到反馈？</summary>
+          <p>审核周期为 3 个工作日，结果会通过站内消息与邮件同步通知。未入选的作品也会收到具体修改建议，方便你继续完善后再投。</p>
+        </details>
+        <details>
+          <summary>创作者入驻有哪些权益？</summary>
+          <p>签约创作者可获得高清素材库授权、官方专题推荐、线下观影会名额与年度创作扶持基金申请资格。具体权益以每年度公示的创作者协议为准。</p>
+        </details>
+      </div>
+    </div>
+
+    <div class="blk-cta" style="margin-top:44px">
+      <div>
+        <h2>把你的片场交给官网，让幕后被认真看见</h2>
+        <p>鹿鸣影业官方网站持续征稿：动作短片、拍摄手记、安全流程记录均可提交。我们提供高清正版素材支持与专业评审反馈，优秀作品进入精品内容专区。</p>
+      </div>
+      <div style="display:flex;gap:10px;flex-wrap:wrap">
+        <button class="blk-btn blk-btn-primary" type="button" data-blk-submit>立即投稿</button>
+        <button class="blk-btn blk-btn-ghost" type="button" style="border-color:rgba(255,255,255,.5);color:#fff" data-blk-share="鹿鸣影业官方网站 · 创作者投稿入口">分享入口</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= S8 页脚 ================= -->
+<footer class="blk-footer">
+  <div class="blk-wrap">
+    <div class="blk-foot-grid">
+      <div class="blk-foot-brand">
+        <div class="blk-logo"><span class="blk-logo-mark">鹿</span><span>鹿鸣<em>影业</em></span></div>
+        <p>鹿鸣影业官方网站 · 专注动作类型原创影像与幕后内容，深耕专业拍摄流程与创作者社区，持续运营高清正版内容生态。我们相信真实的幕后同样具有力量。</p>
+      </div>
+      <div class="blk-foot-col">
+        <h3>内容</h3>
+        <ul>
+          <li><a href="#blkFocus">焦点内容</a></li>
+          <li><a href="#blkVideo">视频流</a></li>
+          <li><a href="#blkTopics">专题企划</a></li>
+          <li><a href="#blkAnalysis">关键词解析</a></li>
+        </ul>
+      </div>
+      <div class="blk-foot-col">
+        <h3>社区</h3>
+        <ul>
+          <li><a href="#blkAuthors">创作者矩阵</a></li>
+          <li><a href="#blkBoard">热度与口碑</a></li>
+          <li><a href="#blkSupport">企业动态</a></li>
+          <li><a href="#blkSupport">常见问题</a></li>
+        </ul>
+      </div>
+      <div class="blk-foot-col">
+        <h3>服务</h3>
+        <ul>
+          <li><a href="#blkSupport">素材授权说明</a></li>
+          <li><a href="#blkSupport">投稿与入驻</a></li>
+          <li><a href="#blkSupport">合作洽谈</a></li>
+          <li><a href="#blkHero">品牌介绍</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="blk-foot-bottom">
+      <span>© 2026 鹿鸣影业 官方网站 · 版权所有 · 持续运营中</span>
+      <span>京ICP备20260118号-3 · 网络文化经营许可 · 高清正版内容平台</span>
+    </div>
+  </div>
+</footer>
+
+<button class="blk-top" id="blkTop" aria-label="回到顶部">↑</button>
+<div class="blk-toast" id="blkToast" role="status" aria-live="polite"></div>
+
+<!-- 分享弹窗 -->
+<div class="blk-modal" id="blkShareModal">
+  <div class="blk-modal-box">
+    <button class="blk-modal-close" type="button" data-blk-close aria-label="关闭">×</button>
+    <h3>分享这条内容</h3>
+    <p id="blkShareText">把这条动作特辑分享给同样关注幕后的人。</p>
+    <div class="blk-share-row">
+      <button type="button" data-blk-copy>复制链接</button>
+      <button type="button" data-blk-shareto="微信">微信</button>
+      <button type="button" data-blk-shareto="微博">微博</button>
+      <button type="button" data-blk-shareto="QQ">QQ</button>
+    </div>
+  </div>
+</div>
+
+<!-- 作者弹窗 -->
+<div class="blk-modal" id="blkAuthorModal">
+  <div class="blk-modal-box">
+    <button class="blk-modal-close" type="button" data-blk-close aria-label="关闭">×</button>
+    <h3 id="blkAuthorName">作者档案</h3>
+    <p id="blkAuthorDesc"></p>
+  </div>
+</div>
+
+<!-- 投稿弹窗 -->
+<div class="blk-modal" id="blkSubmitModal">
+  <div class="blk-modal-box">
+    <button class="blk-modal-close" type="button" data-blk-close aria-label="关闭">×</button>
+    <h3>创作者投稿入口</h3>
+    <p>填写基本信息，我们会按官网投稿规范在 3 个工作日内回复。</p>
+    <label for="blkSubName">创作者昵称</label>
+    <input id="blkSubName" type="text" placeholder="例如：陆迟">
+    <label for="blkSubLink">作品说明</label>
+    <textarea id="blkSubLink" placeholder="简述作品内容、拍摄时间与素材来源"></textarea>
+    <button class="blk-btn blk-btn-primary" type="button" id="blkSubSend">提交投稿</button>
+  </div>
+</div>
+
+<!-- 反馈弹窗 -->
+<div class="blk-modal" id="blkReportModal">
+  <div class="blk-modal-box">
+    <button class="blk-modal-close" type="button" data-blk-close aria-label="关闭">×</button>
+    <h3>内容反馈</h3>
+    <p>发现信息有误或体验问题，欢迎告诉我们。官网运营团队会逐条核实。</p>
+    <label for="blkReportText">反馈内容</label>
+    <textarea id="blkReportText" placeholder="请描述具体问题"></textarea>
+    <button class="blk-btn blk-btn-primary" type="button" id="blkReportSend">提交反馈</button>
+  </div>
+</div>
+
+<script>
+(function(){
+  var toastEl = document.getElementById('blkToast');
+  var toastTimer = null;
+  function toast(msg){
+    toastEl.textContent = msg;
+    toastEl.classList.add('on');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toastEl.classList.remove('on'); }, 2200);
+  }
+
+  /* 移动端导航 */
+  var burger = document.getElementById('blkBurger');
+  var nav = document.getElementById('blkNav');
+  burger.addEventListener('click', function(){
+    var open = nav.classList.toggle('on');
+    burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+    burger.textContent = open ? '✕' : '☰';
+  });
+  nav.addEventListener('click', function(e){
+    if(e.target.tagName === 'A'){
+      nav.classList.remove('on');
+      burger.setAttribute('aria-expanded','false');
+      burger.textContent = '☰';
+    }
+  });
+
+  /* 搜索提示 */
+  var pool = [
+    '白鹿被捅又喊又叫 片场实录',
+    '喊叫戏的呼吸法 访谈',
+    '威亚安全流程 六步',
+    '护具检查表 动作戏',
+    '剪辑九版对照 教程',
+    '同期声保留 混音手记',
+    '创作者投稿 我的片场',
+    '鹿鸣纪实组 幕后'
+  ];
+  var sInput = document.getElementById('blkSearchInput');
+  var sHint = document.getElementById('blkSearchHint');
+  var sBtn = document.getElementById('blkSearchBtn');
+  function renderHint(kw){
+    var t = (kw || '').trim();
+    var list = t ? pool.filter(function(x){ return x.toLowerCase().indexOf(t.toLowerCase()) > -1; }) : pool.slice(0,5);
+    sHint.innerHTML = '';
+    if(!list.length){
+      sHint.innerHTML = '<li class="blk-hint-empty">未找到相关条目，试试“幕后”“安全”或“喊叫”</li>';
+    } else {
+      list.slice(0,6).forEach(function(x){
+        var li = document.createElement('li');
+        li.textContent = x;
+        li.addEventListener('click', function(){
+          sInput.value = x;
+          sHint.classList.remove('on');
+          toast('已为你定位到：' + x);
+        });
+        sHint.appendChild(li);
+      });
+    }
+    sHint.classList.add('on');
+  }
+  sInput.addEventListener('input', function(){ renderHint(sInput.value); });
+  sInput.addEventListener('focus', function(){ renderHint(sInput.value); });
+  sBtn.addEventListener('click', function(){
+    var v = sInput.value.trim();
+    toast(v ? '搜索：' + v + ' · 共匹配到 8 条内容' : '请输入关键词，例如“白鹿”');
+    sHint.classList.remove('on');
+  });
+  document.addEventListener('click', function(e){
+    if(!e.target.closest('.blk-search')) sHint.classList.remove('on');
+  });
+
+  /* 点赞 / 收藏 */
+  document.addEventListener('click', function(e){
+    var likeBtn = e.target.closest('[data-blk-like]');
+    if(likeBtn){
+      var numEl = likeBtn.querySelector('.blk-act-num');
+      var on = likeBtn.classList.toggle('on');
+      var cur = numEl ? parseInt(numEl.textContent.replace(/,/g,''), 10) || 0 : 0;
+      var next = on ? cur + 1 : Math.max(0, cur - 1);
+      if(numEl) numEl.textContent = next.toLocaleString('en-US');
+      var label = likeBtn.querySelector('span');
+      if(label) label.textContent = on ? '♥ 已赞' : '♡ 点赞';
+      toast(on ? '已点赞，感谢支持原创内容' : '已取消点赞');
+      return;
+    }
+    var favBtn = e.target.closest('[data-blk-fav]');
+    if(favBtn){
+      var nEl = favBtn.querySelector('.blk-act-num');
+      var onF = favBtn.classList.toggle('on');
+      var c = nEl ? parseInt(nEl.textContent.replace(/,/g,''), 10) || 0 : 0;
+      var n2 = onF ? c + 1 : Math.max(0, c - 1);
+      if(nEl) nEl.textContent = n2.toLocaleString('en-US');
+      var lb = favBtn.querySelector('span');
+      if(lb) lb.textContent = onF ? '★ 已收藏' : '☆ 收藏';
+      toast(onF ? '已收藏到「我的片场」' : '已取消收藏');
+    }
+  });
+
+  /* 弹窗通用 */
+  function openModal(id){
+    var m = document.getElementById(id);
+    if(m) m.classList.add('on');
+  }
+  function closeAll(){
+    document.querySelectorAll('.blk-modal.on').forEach(function(m){ m.classList.remove('on'); });
+  }
+  document.addEventListener('click', function(e){
+    if(e.target.closest('[data-blk-close]')) closeAll();
+    if(e.target.classList && e.target.classList.contains('blk-modal')) closeAll();
+  });
+  document.addEventListener('keydown', function(e){ if(e.key === 'Escape') closeAll(); });
+
+  /* 分享 */
+  var shareTextEl = document.getElementById('blkShareText');
+  document.addEventListener('click', function(e){
+    var s = e.target.closest('[data-blk-share]');
+    if(s){
+      shareTextEl.textContent = s.getAttribute('data-blk-share') + ' —— 高清正版，来自鹿鸣影业官方网站。';
+      openModal('blkShareModal');
+    }
+    var st = e.target.closest('[data-blk-shareto]');
+    if(st){
+      toast('已打开' + st.getAttribute('data-blk-shareto') + '分享面板');
+    }
+    if(e.target.closest('[data-blk-copy]')){
+      var text = shareTextEl.textContent || '鹿鸣影业官方网站';
+      if(navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText(text).then(function(){ toast('链接已复制到剪贴板'); }).catch(function(){ toast('复制失败，请手动选择文本'); });
+      } else {
+        toast('当前环境不支持自动复制，请手动选择文本');
+      }
+    }
+  });
+
+  /* 作者档案 */
+  var authorInfo = {
+    '鹿鸣纪实组': '鹿鸣影业官方纪实团队，成员 8 人，长期负责动作片现场跟拍与幕后叙事。代表作《白鹿被捅又喊又叫》12 分钟片场实录，累计播放 86.4 万，擅长以细节替代煽情。',
+    '陈砚 · 动作设计': '从业十二年，参与动作片 27 部。主张“安全的动作才有美感”，负责本片三套被捅动作方案与全部威亚复核，是片场最常被喊名字的人。',
+    '周叙 · 摄影': '夜景与雨戏摄影指导，偏爱逆光与水汽形态。本片雨幕光晕、肩后视角与俯拍空镜均出自其手，认为光对了演员的呼吸才看得见。',
+    '林屿 · 声音指导': '声音工坊主理人，负责同期声保留与混音层次。坚持保留三成现场原声，写过一份《喊叫戏混音手记》，被社区创作者广泛引用。',
+    '苏禾 · 剪辑': '节奏剪辑师，把一条镜头剪了九版。建立“情绪呼吸表”记录每版节奏差异，主张爆发之前必须留白，作品多次进入官网精品内容专区。',
+    '向南 · 社区运营': '《我的片场》投稿企划负责人，坚持每条投稿人工回复。她认为被看见本身就是创作生态的一部分，是创作者与官方之间的桥。'
+  };
+  var aName = document.getElementById('blkAuthorName');
+  var aDesc = document.getElementById('blkAuthorDesc');
+  document.addEventListener('click', function(e){
+    var a = e.target.closest('[data-blk-author]');
+    if(a){
+      var key = a.getAttribute('data-blk-author');
+      aName.textContent = key;
+      aDesc.textContent = authorInfo[key] || '该创作者暂未公开详细档案，可前往官网创作者专区查看作品列表。';
+      openModal('blkAuthorModal');
+    }
+    if(e.target.closest('[data-blk-submit]')) openModal('blkSubmitModal');
+    if(e.target.closest('[data-blk-report]')) openModal('blkReportModal');
+  });
+
+  /* 投稿与反馈提交 */
+  document.getElementById('blkSubSend').addEventListener('click', function(){
+    var name = document.getElementById('blkSubName').value.trim();
+    var text = document.getElementById('blkSubLink').value.trim();
+    if(!name || !text){
+      toast('请填写昵称与作品说明');
+      return;
+    }
+    document.getElementById('blkSubName').value = '';
+    document.getElementById('blkSubLink').value = '';
+    closeAll();
+    toast('投稿已提交，3 个工作日内回复');
+  });
+  document.getElementById('blkReportSend').addEventListener('click', function(){
+    var t = document.getElementById('blkReportText').value.trim();
+    if(!t){ toast('请填写反馈内容'); return; }
+    document.getElementById('blkReportText').value = '';
+    closeAll();
+    toast('反馈已收到，感谢你帮助官网改进');
+  });
+
+  /* 回到顶部 */
+  var topBtn = document.getElementById('blkTop');
+  window.addEventListener('scroll', function(){
+    if(window.scrollY > 520) topBtn.classList.add('on');
+    else topBtn.classList.remove('on');
+  }, {passive:true});
+  topBtn.addEventListener('click', function(){ window.scrollTo({top:0, behavior:'smooth'}); });
+})();
+</script>
+</body>
+              </html>
